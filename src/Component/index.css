@@ -1,0 +1,103 @@
+ body {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+.bg-image {
+  
+  min-height: 100vh;
+  background-image: url('/im.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 0;
+
+}
+
+.head {
+
+  text-align: center;
+  padding: 25px;
+  /* background-color: #007BFF; */
+   color: white; 
+  font-size: 2rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 15px;
+  /* background: #f9f9f9; */
+   background: rgba(255, 255, 255, 0.558);
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6px);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.label {
+  font-weight: bold;
+  
+}
+
+
+.textarea {
+  min-height: 10px;
+  padding: 10px;
+  margin: 2px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+
+.textsuggestion {
+  min-height: 120px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize:vertical;
+}
+.radio-group {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-weight: bold;
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.button:hover {
+  background: #0056b3;
+  transform: scale(1.03);
+}
+.summary {
+  text-align: center;
+  line-height: 1.8;
+} 
+ 
+ 
